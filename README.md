@@ -71,8 +71,8 @@ Input (noisy image xₜ + timestep t)
 ## Setup
 
 ```bash
-git clone https://github.com/Zubair-Ali-Sandhu/ddpm-from-scratch.git
-cd ddpm-from-scratch
+git clone https://github.com/Zubair-Ali-Sandhu/pytorch-ddpm.git
+cd pytorch-ddpm
 pip install torch torchvision scikit-image matplotlib jupyter
 jupyter notebook ddpm-from-scratch.ipynb
 ```
