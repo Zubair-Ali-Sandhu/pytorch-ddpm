@@ -1,8 +1,9 @@
-# DDPM from Scratch — Denoising Diffusion Probabilistic Models
+# Pixel Genesis — DDPM from Scratch
 
-> A full DDPM pipeline implemented from scratch in pure PyTorch, trained on image data to demonstrate generative modeling via iterative denoising.
+> A full Denoising Diffusion Probabilistic Model implemented from scratch in pure PyTorch.
+> Generates novel images by learning to reverse a fixed Gaussian noising process — pixels emerge from noise.
 
-**Course:** Generative AI (AI4009) · **University:** FAST NUCES · **Semester:** Spring 2026 · **Assignment:** 04
+**Live Demo:** [DDPM Image Generator on Hugging Face Spaces](https://huggingface.co/spaces/prospect01/scratch-diffusion-implementation)
 
 ---
 
@@ -71,8 +72,8 @@ Input (noisy image xₜ + timestep t)
 ## Setup
 
 ```bash
-git clone https://github.com/Zubair-Ali-Sandhu/pytorch-ddpm.git
-cd pytorch-ddpm
+git clone https://github.com/Zubair-Ali-Sandhu/pixel-genesis.git
+cd pixel-genesis
 pip install torch torchvision scikit-image matplotlib jupyter
 jupyter notebook ddpm-from-scratch.ipynb
 ```
@@ -81,7 +82,6 @@ jupyter notebook ddpm-from-scratch.ipynb
 
 ---
 
-## Contributors
+## Author
 
-- 22F-3845
-- 22F-3360
+**Zubair Ali Sandhu** — [GitHub](https://github.com/Zubair-Ali-Sandhu)
